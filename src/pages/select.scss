@@ -1,0 +1,33 @@
+.select__value-container {
+  padding: 14px;
+  background-color: rgb(25, 39, 52);
+  color: #fff !important;
+}
+.select__input {
+  color: #fff !important;
+  font-size: 18px !important;
+}
+
+.select__control {
+  background-color: var(--bg-secondary) !important;
+}
+.select__control--is-focus {
+  background-color: var(--bg-secondary) !important;
+}
+.select__menu {
+  background-color: var(--bg-secondary) !important;
+}
+.select__value-container {
+  border: none !important;
+}
+.select__multi-value {
+  background-color: #16202a !important;
+
+  color: #fff !important;
+}
+.select__multi-value__label,
+.select__multi-value__remove {
+  color: #fff !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+}

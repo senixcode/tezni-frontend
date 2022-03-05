@@ -1,0 +1,31 @@
+:root{
+  --bg-primary: rgb(22, 32, 42);
+  --bg-secondary:rgb(25, 39, 52);
+  --border-color:1px #000000 solid;
+  --btn-primary-invert :#FF5733;
+  --isInventary: #02d015;
+  --isNotInventary: #ff0303;
+
+}
+body{
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: auto;
+  background: #16202a;
+  color: #f7f7f7 ;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+h3{
+  margin: 0;
+  padding: 0;
+}
+
+.active-link{
+  border-bottom: 2px var(--btn-primary-invert) solid ;
+}
+
